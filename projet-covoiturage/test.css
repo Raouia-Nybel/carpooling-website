@@ -1,0 +1,158 @@
+.header{
+    
+    width:fit-content;
+    height: 120px;
+    background-color: #0f9e86;
+    /*background-color: rgb(51, 47, 47);*/
+    
+    border:black 8px solid;
+    
+}
+.main{
+    
+   width: fit-content;
+    background-image: url("images/mainBG4.jpg");
+    border-top: black solid 2px;
+height: 750px;
+    background-repeat: no-repeat;
+   background-size: 1900px 750px;
+}
+.main2{
+    width: fit-content;
+   
+    border-top: black solid 2px;
+    height: 950px;
+   background-image: url(images/en-tete.jpg);
+   background-size: 1400px 950px;
+   background-repeat: no-repeat;
+   
+}
+.footer{
+    width: fit-content;
+    height: 120px;
+    background-color: rgb(51, 47, 47);
+    
+    
+    border:black 8px solid;
+}
+#logo-covoiturage{
+    float: left;
+    height: 120px;
+    width: 300px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 500px;
+    margin: 0px;
+    overflow: hidden;
+    height: 100px;
+  } 
+  
+  li {
+float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  li a:hover {
+    background-color: #041f52;
+  }
+  #img1{
+      width: 250px;
+      height: 140px;
+  }
+  #presentation{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: large;
+      color:rgb(255, 255, 255);
+      padding-top: 90px;
+      
+  }
+  .btn {
+      margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius:12px 0 12px 0;
+	background: #0f9e86;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    margin-left: 340px;
+    
+}
+.socialMedia{
+    padding-top: 10px;
+   
+}
+.footerLeft{
+    float: left;
+    
+    width: 500px;
+    height: 120px;
+}
+.footerRight{
+    float: right;
+   
+    width: 500px;
+    height: 110px;
+}
+
+
+.formReservation{
+    height: 500px;
+    width: 650px;
+    border-radius: 30px;
+    border: solid black 2px;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 10px;
+    background-color: rgba(245, 205, 140, 0.5);
+}
+.formReservation1{
+    height: 720px;
+    width: 650px;
+    border-radius: 30px;
+    border: solid black 2px;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 10px;
+    background-color: rgba(245, 205, 140, 0.5);
+}
+.inputReservation{
+    border-radius: 5px;
+    border:  5px solid;
+    background-color: #0f9e86;
+    margin-top:30px;
+    margin-left:200px;
+    width: 300px;
+    height: 50px;
+}
+#tableauRecherche{
+    width: 700px;
+    height: 150px;
+    border: solid black 5px;
+    
+    margin-top: 10px;
+    margin-left: 320px;
+
+}
+td,th{
+    border:solid 3px;
+    background-color: rgb(236, 246, 97);
+}
+#error{
+margin-top: 100px;    
+margin-left: 550px;
+color: rgb(172, 5, 5);
+font-size: larger;
+border: solid black 2px;
+}
